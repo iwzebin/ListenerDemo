@@ -21,7 +21,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    当前在线用户人数:${userNumber }<br/>
+       <h2>  当前在线用户人数:${userNumber }</h2><br/>
     <% 
    ArrayList<com.imooc.entity.User>  userList =  (ArrayList<com.imooc.entity.User>)request.getServletContext().getAttribute("userList"); 
    if(userList!=null){
